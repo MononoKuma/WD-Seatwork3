@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #35f7;
+}
+
+.features {
+  align-items: center;
+  justify-content: center;
+  height: 89vh;
+  width: 89vw;
+  display: flex;
+  justify-content: space-around;
+  background-color: #35f7;
+  padding: 40px 20px;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature img {
+  height: 50px;
+  margin-bottom: 10px;
+}
