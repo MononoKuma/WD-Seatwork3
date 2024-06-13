@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  color: black;
+  position: sticky;
+  top: 0;
+}
+
+header .logo img {
+  height: 10vh;
+  padding-left: 3rem;
+  padding-right: 2rem;
+  width: 15vh;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  flex-direction: row;
+  font-size: 1.4em;
+  font-family: sans-serif;
+}
+
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+  flex-direction: row;
+}
