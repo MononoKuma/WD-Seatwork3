@@ -1,50 +1,161 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #35f7;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
 }
 
-img {
+video {
+  position: fixed;
   z-index: -1;
+  object-fit: cover;
+  width: 100vw;
   height: 100vh;
-  width: 100vh;
+  opacity: 0.6;
 }
 
-header {
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainhead {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 20px;
-  color: black;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
   position: sticky;
   top: 0;
 }
 
 header .logo img {
   height: 10vh;
-  padding-left: 3rem;
-  padding-right: 2rem;
-  width: 15vh;
+  width: auto;
 }
 
 header nav ul {
   list-style: none;
   display: flex;
   gap: 48px;
-  flex-direction: row;
-  font-size: 1.4em;
-  font-family: sans-serif;
 }
 
 header nav ul li a {
   color: black;
   text-decoration: none;
+}
+
+.divider {
+  justify-content: flex-end;
+  align-items: center;
+  border: solid 1px black;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.fdesign1 {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
+  diisplay: flex;
   flex-direction: row;
+  width: 100vw;
+}
+
+.fdesign1 .fcontainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fdesign1 p {
+  margin: 0;
+  color: #666;
+}
+
+.fdesign1 .fnav {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.fdesign1 .fnav li {
+  margin: 0 10px;
+}
+
+.fdesign1 .fnav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.firstdesign,
+.seconddesign,
+.thirddesign,
+.fourthdesign,
+.fifthdesign,
+.firstanimated,
+.secondanimated,
+.thirdanimated,
+.fourthanimated,
+.fifthanimated {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 10px 0;
+}
+
+.firstdesign .logo img,
+.seconddesign .logo img,
+.thirddesign .logo img,
+.fourthdesign .logo img,
+.fifthdesign .logo img,
+.firstanimated .logo img,
+.secondanimated .logo img,
+.thirdanimated .logo img,
+.fourthanimated .logo img,
+.fifthanimated .logo img {
+  height: 10vh;
+  width: auto;
+}
+
+.firstdesign nav ul,
+.seconddesign nav ul,
+.thirddesign nav ul,
+.fourthdesign nav ul,
+.fifthdesign nav ul,
+.firstanimated nav ul,
+.secondanimated nav ul,
+.thirdanimated nav ul,
+.fourthanimated nav ul,
+.fifthanimated nav ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+}
+
+.firstdesign nav ul li a,
+.seconddesign nav ul li a,
+.thirddesign nav ul li a,
+.fourthdesign nav ul li a,
+.fifthdesign nav ul li a,
+.firstanimated nav ul li a,
+.secondanimated nav ul li a,
+.thirdanimated nav ul li a,
+.fourthanimated nav ul li a,
+.fifthanimated nav ul li a {
+  color: black;
+  text-decoration: none;
 }
