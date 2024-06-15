@@ -61,101 +61,578 @@ header nav ul li a {
 }
 
 .fdesign1 {
-  background-color: #f8f8f8;
-  padding: 20px 0;
-  text-align: center;
-  diisplay: flex;
-  flex-direction: row;
-  width: 100vw;
-}
-
-.fdesign1 .fcontainer {
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.fdesign1 p {
-  margin: 0;
-  color: #666;
-}
-
-.fdesign1 .fnav {
-  list-style: none;
-  padding: 0;
-  margin: 10px 0 0;
-  display: flex;
-  justify-content: center;
-}
-
-.fdesign1 .fnav li {
-  margin: 0 10px;
-}
-
-.fdesign1 .fnav a {
-  text-decoration: none;
-  color: #333;
-}
-
-.firstdesign,
-.seconddesign,
-.thirddesign,
-.fourthdesign,
-.fifthdesign,
-.firstanimated,
-.secondanimated,
-.thirdanimated,
-.fourthanimated,
-.fifthanimated {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   width: 100vw;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: lightblue;
   margin: 10px 0;
 }
 
-.firstdesign .logo img,
-.seconddesign .logo img,
-.thirddesign .logo img,
-.fourthdesign .logo img,
-.fifthdesign .logo img,
-.firstanimated .logo img,
-.secondanimated .logo img,
-.thirdanimated .logo img,
-.fourthanimated .logo img,
-.fifthanimated .logo img {
-  height: 10vh;
-  width: auto;
-}
-
-.firstdesign nav ul,
-.seconddesign nav ul,
-.thirddesign nav ul,
-.fourthdesign nav ul,
-.fifthdesign nav ul,
-.firstanimated nav ul,
-.secondanimated nav ul,
-.thirdanimated nav ul,
-.fourthanimated nav ul,
-.fifthanimated nav ul {
-  list-style: none;
+.fdesign1 .fcontainer {
   display: flex;
-  gap: 48px;
+  justify-content: space-around;
+  width: 100vw;
+  margin: 0 auto;
 }
 
-.firstdesign nav ul li a,
-.seconddesign nav ul li a,
-.thirddesign nav ul li a,
-.fourthdesign nav ul li a,
-.fifthdesign nav ul li a,
-.firstanimated nav ul li a,
-.secondanimated nav ul li a,
-.thirdanimated nav ul li a,
-.fourthanimated nav ul li a,
-.fifthanimated nav ul li a {
+.fdesign1 .fcontainer .fsection {
+  width: 30%;
+}
+
+.fdesign1 .fcontainer .fsection h3 {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.fdesign1 .fcontainer .fsection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fdesign1 .fcontainer .fsection ul li {
+  margin-bottom: 10px;
+}
+
+.fdesign1 .fcontainer .fsection ul li a {
   color: black;
   text-decoration: none;
+}
+
+.fdesign2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100vw;
+  background-color: lightblue;
+  margin: 10px 0;
+}
+
+.fdesign2 .fcontainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.fdesign2 .fcontainer .fsection {
+  width: 25%;
+}
+
+.fdesign2 .fcontainer .fsection h3 {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.fdesign2 .fcontainer .fsection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fdesign2 .fcontainer .fsection ul li {
+  margin-bottom: 10px;
+}
+
+.fdesign2 .fcontainer .fsection ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.fdesign3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100vw;
+  background-color: lightblue;
+  margin: 10px 0;
+}
+
+.fdesign3 .fcontainer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fdesign3 .fcontainer .logo {
+  width: 12vw;
+  padding: 10px 20px;
+  align-self: center;
+}
+
+.fdesign3 .fcontainer .fnav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.fdesign3 .fcontainer .fnav li {
+  display: inline;
+}
+
+.fdesign3 .fcontainer .fnav a {
+  color: black;
+  text-decoration: none;
+}
+
+.fdesign4 {
+  padding: 10px 20px;
+  width: 100vw;
+  background-color: lightblue;
+  margin: 10px 0;
+}
+
+.fdesign4 .fcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  padding: 20px;
+}
+
+.fdesign4 .flogo {
+  margin-bottom: 20px;
+}
+
+.fdesign5 {
+  background-color: lightblue;
+  color: black;
+  padding: 40px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  width: 100vw;
+  height: 36vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.fdesign5 .fcontainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 5rem;
+}
+
+.fdesign5 .fcontainer div {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.fdesign5 h3 {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.fdesign5 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fdesign5 ul li {
+  margin-bottom: 10px;
+}
+
+.fdesign5 ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.fdesign5 .fsocial {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-right: 30px;
+}
+
+.fdesign5 .fsocial img {
+  width: 3vw;
+  cursor: pointer;
+}
+
+divider {
+}
+
+.fanimated1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100vw;
+  background-color: lightblue;
+  margin: 10px 0;
+}
+
+.fanimated1 .fcontainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.fanimated1 .fcontainer .fsection {
+  width: 30%;
+}
+
+.fanimated1 .fcontainer .fsection h3 {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.fanimated1 .fcontainer .fsection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fanimated1 .fcontainer .fsection ul li {
+  margin-bottom: 10px;
+}
+
+.fanimated1 .fcontainer .fsection ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.fanimated1 .fcontainer .fsection ul li a:hover {
+  border-bottom: solid 1px black;
+  width: 10vw;
+}
+
+.fanimated2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100vw;
+  background-color: lightblue;
+  margin: 10px 0;
+}
+
+.fanimated2 .fcontainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.fanimated2 .fcontainer .fsection {
+  width: 25%;
+}
+
+.fanimated2 .fcontainer .fsection h3 {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.fanimated2 .fcontainer .logo img:hover {
+  transform: rotate(360deg);
+  transition: 2.5s linear;
+}
+
+.fanimated2 .fcontainer .fsection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fanimated2 .fcontainer .fsection ul li {
+  margin-bottom: 10px;
+}
+
+.fanimated2 .fcontainer .fsection ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.fanimated2 .fcontainer .fsection ul li a:hover {
+  border-bottom: solid 1px black;
+  width: 10vw;
+}
+
+.fanimated3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100vw;
+  background-color: lightblue;
+  margin: 10px 0;
+}
+
+.fanimated3 .fcontainer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fanimated3 .fcontainer .logo-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fanimated3 .fcontainer .logo {
+  width: 12vw;
+  padding: 10px 20px;
+}
+
+.fanimated3 .fcontainer .logo-container .tooltip {
+  position: absolute;
+  top: -40px;
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: solid 1px black;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.fanimated3 .fcontainer .logo-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.fanimated3 .fcontainer .fnav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.fanimated3 .fcontainer .fnav li {
+  display: inline;
+}
+
+.fanimated3 .fcontainer .fnav a {
+  color: black;
+  text-decoration: none;
+}
+
+.fanimated4 {
+  padding: 10px 20px;
+  width: 100vw;
+  background-color: lightblue;
+  margin: 10px 0;
+}
+
+.fanimated4 .fcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  padding: 20px;
+}
+
+.fanimated4 .flogo {
+  margin-bottom: 20px;
+}
+
+.fanimated4 .logo {
+  width: 12vw;
+  transition: transform 0.5s, width 0.5s;
+}
+
+.fanimated4 .logo:hover {
+  animation: shake 0.5s;
+  transform: scale(0.9);
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.fanimated5 {
+  background-color: lightblue;
+  color: black;
+  padding: 40px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  width: 100vw;
+  height: 36vh;
+}
+
+.fanimated5 .main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.fanimated5 .fcontainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 5rem;
+}
+
+.fanimated5 .fcontainer div {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.fanimated5 h3 {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.fanimated5 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fanimated5 ul li {
+  margin-bottom: 10px;
+}
+
+.fanimated5 ul li:hover {
+  border-bottom: solid 2px black;
+}
+
+.fanimated5 ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.fanimated5 .fsocial {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-right: 30px;
+}
+
+.fanimated5 .fsocial .social-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fanimated5 .fsocial img {
+  width: 3vw;
+  cursor: pointer;
+  transition: transform 0.5s, width 0.5s;
+}
+
+.fanimated5 .fsocial .social-icon:hover img {
+  animation: shake 0.5s;
+}
+
+.fanimated5 .fsocial .tooltip {
+  position: absolute;
+  top: 50%;
+  right: 110%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.fanimated5 .fsocial .social-icon:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.fanimated5 .flogo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fanimated5 .flogo .logo {
+  width: 12vw;
+  transition: transform 0.5s, width 0.5s;
+}
+
+.fanimated5 .flogo .tooltip {
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.fanimated5 .flogo:hover .logo {
+  animation: shake 0.5s;
+  transform: scale(0.9);
+}
+
+.fanimated5 .flogo:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
