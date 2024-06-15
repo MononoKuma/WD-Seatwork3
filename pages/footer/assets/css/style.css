@@ -225,7 +225,7 @@ header nav ul li a {
 .fdesign5 .fcontainer {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
+  width: 100vww;
   margin: 0 auto;
   gap: 5rem;
 }
@@ -503,7 +503,7 @@ divider {
 .fanimated5 .fcontainer {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
+  width: 100vw;
   margin: 0 auto;
   gap: 5rem;
 }
