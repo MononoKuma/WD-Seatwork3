@@ -60,16 +60,17 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+- A mutlti paged that showcases a landing page and header- gallery and footer-gallery each consisting of 10 designs with 5 static and 5 dynamic design.
 - Whats the purpose
+- To test our knowledge in HTML & CSS
 - What are key components
+- MultiPage Website
 - What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
 
 ### Technology
 <!-- TODO: List of Technology Used -->
