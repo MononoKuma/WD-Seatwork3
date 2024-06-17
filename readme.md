@@ -12,7 +12,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This project is a multipaged project that consists of 3 pages which are the Landing page, the Header Gallery, and the Footer Gallery page. In the Landing page consist of the links to the Footer and Header pages. Which each of those pages consist of 10 designs which are grouped into 2 sections. Those 2 are the 5 static designs and the 5 animated designs totalling of 10 designs.
 </div>
 
 <br />
