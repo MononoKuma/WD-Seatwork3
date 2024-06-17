@@ -8,7 +8,7 @@
    <img src="https://api.daily.dev/devcards/v2/DMEySfkP0murZQ6MrL1WW.png?type=wide&r=rgz" width="652" alt="Aries's Dev Card"/>
  </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Formulating HTML</h3>
+  <h3 align="center">SeatWork 3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -60,17 +60,20 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
-- A mutlti paged that showcases a landing page and header- gallery and footer-gallery each consisting of 10 designs with 5 static and 5 dynamic design.
+  - A mutlti paged that showcases a landing page and header- gallery and footer-gallery each consisting of 10 designs with 5 static and 5 dynamic design.
 - Whats the purpose
-- To test our knowledge in HTML & CSS
+  - To test our knowledge in HTML & CSS
 - What are key components
-- MultiPage Website
+  - MultiPage Website
+  - Animated Desing
 - What technology used and how it is used
+  - 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
+- Animated design
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -133,4 +136,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| W3Shools | HTML & CSS | https://www.w3schools.com |
+| GeeksforGeeks | HTML & CSS | https://www.geeksforgeeks.org |
+| Youtube | Video | https://www.youtube.com |
+
