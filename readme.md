@@ -57,18 +57,7 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
-
-Guiding Question:
-- What is the project
-  - A multi-paged that showcases a landing page and header gallery and footer gallery each consisting of 10 designs with 5 static and 5 dynamic design.
-- Whats the purpose
-  - To test our knowledge in HTML & CSS
-- What are key components
-  - MultiPage Website
-  - Animated Design
-- What technology used and how it is used
-  - CSS & HTML consisting of animations and  links that connect multiple pages.
-
+  - The project is a multi-page website showcasing a landing page, header gallery, and footer gallery, each featuring 10 designs comprising 5 static and 5 dynamic designs. Its purpose is to evaluate our skills in HTML and CSS, focusing on creating a multi-page structure with animated designs. The technologies used include CSS and HTML, leveraging animations and page links to connect the various sections seamlessly.
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
