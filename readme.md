@@ -12,7 +12,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This project is a multipaged project that consists of 3 pages which are the Landing page, the Header Gallery, and the Footer Gallery page. In the Landing page consist of the links to the Footer and Header pages. Which each of those pages consist of 10 designs which are grouped into 2 sections. Those 2 are the 5 static designs and the 5 animated designs totalling of 10 designs.
+  This multi-paged project consists of 3 pages: the Landing page, the Header Gallery, and the Footer Gallery page. The Landing page consists of the Footer and Header page links. Each of those pages consists of 10 designs which are grouped into 2 sections. Those 2 are the 5 static and 5 animated designs totalling 10.
 </div>
 
 <br />
@@ -60,14 +60,14 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
-  - A mutlti paged that showcases a landing page and header- gallery and footer-gallery each consisting of 10 designs with 5 static and 5 dynamic design.
+  - A multi-paged that showcases a landing page and header gallery and footer gallery each consisting of 10 designs with 5 static and 5 dynamic design.
 - Whats the purpose
   - To test our knowledge in HTML & CSS
 - What are key components
   - MultiPage Website
-  - Animated Desing
+  - Animated Design
 - What technology used and how it is used
-  - 
+  - CSS & HTML consisting of animations and  links that connect multiple pages.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -139,4 +139,5 @@ WD-ProjectName
 | W3Shools | HTML & CSS | https://www.w3schools.com |
 | GeeksforGeeks | HTML & CSS | https://www.geeksforgeeks.org |
 | Youtube | Video | https://www.youtube.com |
+| Ian Ramirez | Template | https://github.com/zyx-0314 |
 
