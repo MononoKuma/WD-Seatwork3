@@ -71,6 +71,18 @@ header nav ul li a {
   width: 100%;
 }
 
+.firstdesign .logo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.firstdesign .logo-container p {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
 .firstdesign .logo img {
   height: 10vh;
   width: auto;
@@ -103,6 +115,12 @@ header nav ul li a {
   height: 10vh;
   width: auto;
 }
+
+.seconddesign .logo p {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
 .seconddesign .searchbar {
   align-items: center;
 }
@@ -266,9 +284,34 @@ header nav ul li a {
   width: 100%;
 }
 
+.firstanimated .logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
 .firstanimated .logo img {
   height: 10vh;
   width: auto;
+}
+
+.firstanimated .logo-text {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(10px, -50%);
+  white-space: nowrap;
+  font-size: 1.2rem;
+  color: black;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.firstanimated .logo:hover .logo-text {
+  opacity: 1;
+  transform: translate(15px, -50%);
 }
 
 .firstanimated nav ul {
@@ -286,6 +329,9 @@ header nav ul li a {
 .firstanimated nav ul li a:hover {
   color: #007bff;
   border-bottom: 2px solid #007bff;
+  background-color: lightblue;
+  height: 100%;
+  transition: color 0.4s, border-bottom 0.4s, background-color 0.4;
 }
 
 .secondanimated {
@@ -320,6 +366,8 @@ header nav ul li a {
   color: black;
   opacity: 0;
   transition: opacity 0.3s, transform 0.3s;
+  font-weight: bold;
+  font-size: 1.6rem;
 }
 
 .secondanimated .logo:hover .logo-text {
@@ -354,7 +402,7 @@ header nav ul li a {
 .secondanimated nav ul li a:hover {
   background-color: #007bff;
   color: white;
-  height: 100%;
+  height: calc(60px + 2rem);
 }
 
 .secondanimated .input-container {
@@ -542,6 +590,8 @@ header nav ul li a {
   color: black;
   opacity: 0;
   transition: opacity 0.3s, transform 0.3s;
+  font-weight: bold;
+  font-size: 1.6rem;
 }
 
 .fourthanimated .logo:hover .logo-text {
@@ -632,6 +682,8 @@ header nav ul li a {
   color: white;
   opacity: 0;
   transition: opacity 0.3s, transform 0.3s;
+  font-weight: bold;
+  font-size: 1.6rem;
 }
 
 .fifthanimated .logo:hover .logo-text {
