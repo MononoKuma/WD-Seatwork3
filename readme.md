@@ -56,7 +56,6 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
   - The project is a multi-page website showcasing a landing page, header gallery, and footer gallery, each featuring 10 designs comprising 5 static and 5 dynamic designs. Its purpose is to evaluate our skills in HTML and CSS, focusing on creating a multi-page structure with animated designs. The technologies used include CSS and HTML, leveraging animations and page links to connect the various sections seamlessly.
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -73,11 +72,11 @@ Description of the project in details.
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
 3. Place Files in their respective folders.
-4. All file naming are in camel case.
-   - Camel case is naming format where there is no white space in separation of each words, the first word is in all lower case while the succeding words first letter are in upper followed by lower cased letters.
+4. All file naming is in camel case.
+   - Camel case is a naming format where there is no white space in the separation of each word, the first word is in all lower case while the succeeding words' first letters are in upper followed by lower case letters.
    - ex.: buttonAnimatedStyle.css
 5. Use only `External CSS`.
-6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
+6. Renaming Pages folder names is a must and relates to what it is doing or the data it holds.
 7. File Structure to follow below.
 
 ```
@@ -130,4 +129,5 @@ WD-ProjectName
 | Youtube | Video | https://www.youtube.com/channel/UCMHXMAeKkI6HXlPfLiYvo9g |
 | Ian Ramirez | Template | https://github.com/zyx-0314 |
 | Daily Dev   | Readme Icon | https://daily.dev/ |
+| Google | Images & Icons | htpps://google.com/ |
 
